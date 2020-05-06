@@ -1,0 +1,7 @@
+<div class="resume-loading-indicator" *ngIf="isloading">
+    <mat-spinner>Please wait...</mat-spinner>
+</div>
+
+<div class="resume-doc" *ngIf="!isloading">
+    <app-widget-file-viewer [id]="'1aIrNBObXq_OnCWL3pfEII7CAEVvPFu3C'"></app-widget-file-viewer>
+</div>

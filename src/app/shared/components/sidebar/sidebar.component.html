@@ -1,0 +1,19 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>Srinivas P N V</h2>
+            <h4>pnvsrinivas@outlook.com</h4>
+        </div>
+        <img src="assets/images/profile.jpg" alt="Me">
+        <div class="profile-icon"></div>
+    </div>
+</mat-nav-list>
+
+<mat-divider></mat-divider>
+
+<h3 matSubheader>Pages</h3>
+
+<mat-list role="list">
+    <a mat-list-item role="listitem" routerLinkActive="list-item-active" [routerLink]="'/home'">Home</a>
+    <a mat-list-item role="listitem" routerLinkActive="list-item-active" [routerLink]="'/resume'">Resume</a>
+</mat-list>

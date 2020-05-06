@@ -1,0 +1,46 @@
+:host{
+    .mat-icon {
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+}
+
+.profile-card {
+    text-align: center;
+    padding: 0 20px 20px 20px;
+    img {
+        width: 100p;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: none;
+    }
+}   
+
+.profile-icon {
+    background-image: url("/assets/images/profile.jpg"); 
+    width: 100px;
+    height: 100px; margin: 0 auto;
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+mat-list a {
+    text-decoration: none;
+}
+
+h2 {
+    padding-bottom: 0px;
+}
+
+.mat-subheader {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.list-item-active {
+    background-color: #3f51b5;
+    color: white;
+}
